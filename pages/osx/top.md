@@ -7,7 +7,7 @@
 
 `top`
 
-- Start top sorting processes by internal memory size (default order - process ID):
+- REMOVEStart top sorting processes by internal memory size (default order - process ID):
 
 `top -o mem`
 
