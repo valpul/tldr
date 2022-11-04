@@ -18,6 +18,10 @@
 
 `ip a`
 
-- Sample configuration:
+- Sample dynamic vlan creation:
 
 `sudo ip link add link enp1s0 name enp1s0.100 type vlan id 100`
+
+- Sample dynamic vlan configuration:
+
+`sudo ip addr add 192.168.100.2/24 dev enp1s0.100`
