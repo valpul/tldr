@@ -1,4 +1,4 @@
-# VLAN installation in Ubuntu
+# VLAN
 
 > This page is for Ubuntu using IP command
 
