@@ -23,8 +23,10 @@
 
 `netsh interface set interface name="Ethernet" admin=disabled`
 
-
+- The example below opens ICMP on the firewall:
 
 `netsh advfirewall firewall add rule name="All ICMP V4" dir=in action=allow protocol=icmpv4`
+
+- Example opening port 80 in this case:
 
 `netsh advfirewall firewall add rule name= "Open Port 80" dir=in action=allow protocol=TCP localport=80`
