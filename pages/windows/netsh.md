@@ -17,7 +17,15 @@
 
 - Now, run the below netsh interface command to manually set the following IP address 10.0.0.100/16 Gateway 10.0.0.1 settings:
 
-`netsh interface ip set address "Ethernet" static 10.0.0.100 255.255.0.0 10.0.0.1` 
+`netsh interface ip set address "Ethernet" static 10.0.0.100 255.255.0.0 10.0.0.1`
+
+- Manually set DNS:
+
+`netsh interface ipv4 set dns name=YourIneterfaceName static 0.0.0.0 index=2`
+
+- Set DNS to DHCP:
+
+`netsh interface ipv4 set dnsservers name”YOUR INTERFACE NAME” source=dhcp`
 
 - To disable the Ethernet interface on your Windows system:
 
