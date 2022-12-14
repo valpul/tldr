@@ -22,3 +22,9 @@
 - To disable the Ethernet interface on your Windows system:
 
 `netsh interface set interface name="Ethernet" admin=disabled`
+
+
+
+`netsh advfirewall firewall add rule name="All ICMP V4" dir=in action=allow protocol=icmpv4`
+
+`netsh advfirewall firewall add rule name= "Open Port 80" dir=in action=allow protocol=TCP localport=80`
