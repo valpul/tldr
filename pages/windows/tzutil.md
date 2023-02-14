@@ -11,6 +11,9 @@
 
 `tzutil /l`
 
+`display name`
+`time zone ID`
+
 - Set the system time zone to the specific value:
 
 `tzutil /s {{timezone_id}}`
