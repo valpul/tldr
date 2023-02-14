@@ -11,8 +11,10 @@
 
 `tzutil /l`
 
-`display name`
-`time zone ID`
+-- In this format
+
+`display name = (UTC-06:00) Central Time (US & Canada)`
+`time zone ID = Central Standard Time`
 
 - Set the system time zone to the specific value:
 
