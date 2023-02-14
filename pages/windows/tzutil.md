@@ -7,7 +7,7 @@
 
 `tzutil /g`
 
-- Display a list of available time zones:
+- List all the available time zones:
 
 `tzutil /l`
 
