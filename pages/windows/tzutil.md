@@ -1,7 +1,7 @@
 # tzutil
 
 > A tool for displaying or configuring the system time zone.
-> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/tzutil>.
+> More information: <https://ss64.com/nt/timezones.html>.
 
 - Get the current time zone:
 
