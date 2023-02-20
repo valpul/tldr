@@ -5,35 +5,35 @@
 
 - For hardware entries
 
-`tldr excli-hardware`
+`tldr esxcli-hardware`
 
 - For miscellaneous entries
 
-`excli-misc`
+`tldr esxcli-misc`
 
 - For network entries
 
-`excli-network`
+`tldr esxcli-network`
 
-- For software entries e.g. vob
+- For software entries e.g. vib
 
-`excli-software`
+`tldr esxcli-software`
 
 - For storage entries
 
-`excli-storage`
+`tldr esxcli-storage`
 
 - For system information entries
 
-`excli-system`
+`tldr esxcli-system`
 
 - For VM management entries
 
-`excli-vm`
+`tldr esxcli-vm`
 
 - For miscellaneous entries
 
-`excli-misc`
+`tldr esxcli-misc`
 
 - To find a file's installation place, use the command WHICH 
 
