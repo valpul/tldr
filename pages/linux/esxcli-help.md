@@ -5,7 +5,7 @@
 
 - For hardware entries
 
-`excli-hardware`
+`tldr excli-hardware`
 
 - For miscellaneous entries
 
@@ -34,6 +34,8 @@
 - For miscellaneous entries
 
 `excli-misc`
+
+- To find a file's installation place, use the command WHICH 
 
 `which {{esxcli}}`
 
