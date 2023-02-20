@@ -41,9 +41,9 @@
 --
 # Add and Remove vSAN Storage
 
-- Add an HDD or data disk for use by vSAN:
+- Add an HDD or data disk for use by vSAN, first list disks:
 
-`esxcli storage filesystem list` - list disks
+`esxcli storage filesystem list`
 `esxcli vsan storage add --disks {{device_name}}`
 >
 > Note The command expects an empty disk, which is partitioned or formatted. Specify a device name, for example, mpx.vmhba2:C0:T1:L0.
